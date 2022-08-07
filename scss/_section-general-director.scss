@@ -1,0 +1,66 @@
+.section-general-director {
+  position: relative;
+
+  background-image: url(../img/bg-img.png);
+  background-repeat: no-repeat;
+  min-height: 420px;
+
+  margin-bottom: 190px;
+  & > img {
+    position: absolute;
+    top: -60px;
+    left: 30%;
+    z-index: 1;
+  }
+  & > a img {
+    position: absolute;
+    left: 635px;
+    top: 175px;
+    z-index: 2;
+  }
+  .info-director {
+    position: absolute;
+    bottom: -100px;
+    left: 25%;
+    z-index: 3;
+
+    background: #fff;
+    max-width: 570px;
+    min-height: 190px;
+    padding: 41px 43px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    &__name {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      gap: 10px;
+      h2 {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        /* identical to box height, or 125% */
+        /* 1 */
+        color: #2b2a28;
+      }
+      p {
+        max-width: 384px;
+
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        /* 1 */
+        color: #2b2a28;
+      }
+    }
+  }
+}

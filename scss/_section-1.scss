@@ -1,0 +1,63 @@
+.main-info-company {
+
+    margin-bottom: 126px;
+    
+  &__span {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height, or 142% */
+    /* Gray 3 */
+    color: #828282;
+  }
+
+  &-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    div a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: all ease 0.5s;
+      span {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+        display: flex;
+        align-items: center;
+        /* 5 */
+        color: #cb8734;
+      }
+
+    }
+    div a img,span:hover{
+      color:#996321;
+    }
+  }
+  &-subtittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__paragraph {
+      width: 420px;
+
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 30px;
+      /* or 188% */
+      /* 1 */
+      color: #2b2a28;
+    }
+  }
+}

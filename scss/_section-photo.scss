@@ -1,0 +1,100 @@
+.main-section-photo {
+  padding-bottom: 144px;
+  &__tittle {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    /* identical to box height, or 161% */
+    /* 1 */
+    color: #2b2a28;
+
+    margin-top: 145px;
+    margin-bottom: 37px;
+  }
+
+  &-photo {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 145px;
+  }
+
+  &-bottom {
+    h3 {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      /* identical to box height, or 133% */
+      /* 1 */
+      color: #2b2a28;
+
+      margin-bottom: 40px;
+    }
+    &-blogs {
+      display: flex;
+      gap: 30px;
+
+      &-blog {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        position: relative;
+        h5 {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          /* or 150% */
+          /* 1 */
+          color: #2b2a28;
+        }
+        p {
+          max-width: 340px;
+
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 30px;
+          /* or 200% */
+          /* 1 */
+          color: #2b2a28;
+        }
+
+        a {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+
+          background: #cb8734;
+          border-radius: 4px;
+
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 11px;
+          line-height: 12px;
+          /* identical to box height, or 109% */
+          text-align: center;
+          text-transform: uppercase;
+          /* 3 */
+          color: #ffffff;
+
+          transition: all ease 0.5s;
+
+          padding: 12px 20px;
+        }
+
+        a:hover{
+            transform: translateY(-5px);
+            background: #88571b;
+        }
+      }
+    }
+  }
+}

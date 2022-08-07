@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container-inner {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #e5e5e5;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}

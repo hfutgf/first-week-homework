@@ -1,0 +1,204 @@
+.footer {
+  background: #fffbf7;
+  padding-top: 90px;
+  &-section {
+    padding-bottom: 60px;
+    &-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &-left {
+        background: #3d1e19;
+        box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.1);
+        border-radius: 8px;
+
+        padding: 25px 62px;
+
+        display: flex;
+        gap: 60px;
+        a {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 146.19%;
+          /* or 23px */
+          letter-spacing: 0.08em;
+          /* 3 */
+          color: #ffffff;
+
+          transition: all ease 0.5s;
+        }
+        a:hover {
+          color: #777;
+        }
+
+        .border {
+          border-right: 1px dashed #e5ebf2;
+          padding-right: 60px;
+        }
+      }
+      &-right {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        a {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 146.19%;
+          /* or 23px */
+          letter-spacing: 0.08em;
+          /* 1 */
+          color: #2b2a28;
+        }
+        .button {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 16px;
+          /* or 123% */
+          text-align: center;
+          /* 3 */
+          color: #ffffff;
+
+          background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+          box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+          border-radius: 4px;
+          border: none;
+          transition: all ease 0.5s;
+
+          padding: 16px 25px;
+        }
+
+        .button:hover {
+          transform: translateY(-5px);
+          background: #cb8734;
+        }
+      }
+    }
+    &-bottom {
+      display: flex;
+      &-left {
+        display: flex;
+        gap: 50px;
+        margin-top: 39px;
+        width: 82%;
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        li {
+          max-width: 190px;
+        }
+
+        li a {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 22px;
+          /* or 157% */
+          /* 1 */
+          color: #2b2a28;
+        }
+      }
+
+      &-right {
+        display: flex;
+        flex-direction: column;
+        gap: 51px;
+        margin-top: 32px;
+
+        &-logo {
+          display: flex;
+          gap: 30px;
+          a img {
+            width: 220px;
+          }
+          span {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 18px;
+            /* or 138% */
+            letter-spacing: 0.08em;
+            /* 1 */
+            color: #2b2a28;
+          }
+        }
+
+        &-masangers {
+          span {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            /* identical to box height, or 129% */
+            letter-spacing: 0.08em;
+            /* 1 */
+            color: #2b2a28;
+          }
+          div {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        
+          }
+        }
+        &-tel {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          h4 {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 16px;
+            /* identical to box height, or 80% */
+            text-align: left;
+            /* 1 */
+            color: #2b2a28;
+          }
+          span {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            /* identical to box height, or 150% */
+            letter-spacing: 0.08em;
+            /* 1 */
+            color: #2b2a28;
+          }
+        }
+      }
+    }
+  }
+  hr {
+    background: #e7d8c7;
+    margin-bottom: 31px;
+    opacity: 0.5;
+  }
+  p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 169% */
+    text-align: center;
+    /* 1 */
+    color: #2b2a28;
+    opacity: 0.7;
+    padding-bottom: 30px;
+  }
+}
